@@ -39,7 +39,7 @@
 
 ##### 有兴趣的大佬可以看看能不能通过hook的方式获取微信内置浏览器的wap_sid2以及pass_ticket，这样的话就能实现真正的“永久免扫码登陆”。个人能力有限，就没办法弄hook这些了。
 
-#### 自行抓包获取cookies的方式
+## 自行抓包获取cookies的方式
 本来抓包也不难，可是微信自带了对证书的检验，所以微信看到抓包的自签名证书就直接断开连接了，正常情况下无法解密https的流量。
 
 但是我们可以通过hook的方式来使得微信对证书的检验失效。这个时候就需要借助[VitualXposed](https://github.com/android-hacker/VirtualXposed)（免root） + [JustTrustMe](https://github.com/Fuzion24/JustTrustMe)来使得抓包需要的自签名证书被信任。
