@@ -46,8 +46,8 @@ def scan_qrcode():
     user_agent = 'xxxxxx'
     wxuin = 'xxxxxx'
     ua_id = 'xxxxxx'
-    pgv_pvi = 'xxxxxxx'
-    pgv_si = 'xxxxxx'
+    #pgv_pvi = 'xxxxxxx'
+    #pgv_si = 'xxxxxx'
     uuid = 'xxxxxxx'
 
 
@@ -57,8 +57,8 @@ def scan_qrcode():
         'version': '27001134',
         'lang': 'zh_CN',
         'ua_id': ua_id,
-        'pgv_pvi': pgv_pvi,
-        'pgv_si': pgv_si,
+        #'pgv_pvi': pgv_pvi,
+        #'pgv_si': pgv_si,
         'uuid': uuid,
         'pass_ticket': pass_ticket,
         'wap_sid2': wap_sid2
